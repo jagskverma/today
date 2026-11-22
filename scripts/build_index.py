@@ -92,11 +92,10 @@ def main():
     entries.sort(key=lambda e: e["date"])
 
     words = [e["words"] for e in entries]
+    # No build timestamp on purpose: a timestamp makes every run produce new
+    # bytes, so CI commits index.json after each push and the next local build
+    # conflicts. Every field here is derived from the entries.
     payload = {
-        "generated": datetime.datetime.now(datetime.timezone.utc)
-        .replace(microsecond=0)
-        .isoformat()
-        .replace("+00:00", "Z"),
         "count": len(entries),
         "total_words": sum(words),
         "max_words": max(words) if words else 0,
