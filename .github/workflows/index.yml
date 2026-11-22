@@ -1,0 +1,37 @@
+name: build index
+
+on:
+  push:
+    paths:
+      - "entries/**"
+      - "scripts/build_index.py"
+      - ".github/workflows/index.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: index
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build index.json
+        run: python3 scripts/build_index.py
+
+      - name: Commit if changed
+        run: |
+          git add index.json
+          if git diff --cached --quiet; then
+            echo "index.json unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "rebuild index.json"
+          git push

@@ -1,0 +1,20 @@
+{
+  "generated": "2026-11-22T21:06:42Z",
+  "count": 1,
+  "total_words": 241,
+  "max_words": 241,
+  "entries": [
+    {
+      "date": "2026-11-23",
+      "title": "The daily log gets its own page",
+      "tags": [
+        "site",
+        "cloudflare-pages",
+        "markdown"
+      ],
+      "words": 241,
+      "chars": 1411,
+      "excerpt": "Set up /today as a running record of the work I actually finish each day. One markdown file per day, a GitHub Action that rebuilds an index, and a page on my ow..."
+    }
+  ]
+}
