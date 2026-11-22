@@ -15,15 +15,16 @@ tags: [threejs, paper-plane]
 Body in normal markdown. Headings, lists, tables and code all render.
 ```
 
-Push it. The `build index` Action regenerates `index.json` in about five seconds, and the page picks it up on next load. No deploy needed.
+Push it. The `build index` Action regenerates `index.json` in about five seconds, and the page picks it up on the next load. No deploy needed.
 
-Optional frontmatter:
+Frontmatter is optional. A file with no frontmatter still publishes: the title falls back to the date and the whole file renders as the body. Tags are optional too.
 
-- `weight: 1-4` forces the heatmap level for that day when the writing is short but the work was heavy.
+## How the page reads
 
-## How the colours work
-
-Green intensity is relative to the longest entry in the repo, not a fixed word count: `level = ceil(4 * words / max_words)`. The longest entry is always the brightest cell, and every earlier cell is re-graded whenever a new longest entry lands.
+- The latest entry opens by default, full width of the reading column.
+- Previous and next links skip days you did not write.
+- The calendar fills a day in the accent colour when it has an entry. Length does not matter: a 20 word day looks exactly like a 500 word day.
+- `?d=YYYY-MM-DD` links to any entry, and the browser back button works.
 
 ## Files
 
