@@ -1,7 +1,7 @@
 {
   "count": 1,
-  "total_words": 129,
-  "max_words": 129,
+  "total_words": 130,
+  "max_words": 130,
   "entries": [
     {
       "date": "2026-11-23",
@@ -11,8 +11,8 @@
         "extension",
         "inference"
       ],
-      "words": 129,
-      "chars": 841,
+      "words": 130,
+      "chars": 828,
       "excerpt": "Built the /today page: the latest entry reads full width, with a quiet month calendar and a short list of recent days below it. Entries are one file per day in ..."
     }
   ]
