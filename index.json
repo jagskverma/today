@@ -1,18 +1,20 @@
 {
-  "generated": "2026-11-22T21:48:06Z",
+  "generated": "2026-11-22T22:00:21Z",
   "count": 1,
-  "total_words": 47,
-  "max_words": 47,
+  "total_words": 129,
+  "max_words": 129,
   "entries": [
     {
       "date": "2026-11-23",
-      "title": "Today page",
+      "title": "Today page, readable, and session three",
       "tags": [
-        "site"
+        "site",
+        "extension",
+        "inference"
       ],
-      "words": 47,
-      "chars": 259,
-      "excerpt": "Built the /today page: the latest entry reads full width, with a quiet month calendar and a short list of recent days below it."
+      "words": 129,
+      "chars": 841,
+      "excerpt": "Built the /today page: the latest entry reads full width, with a quiet month calendar and a short list of recent days below it. Entries are one file per day in ..."
     }
   ]
 }
