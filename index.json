@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-22T21:27:26Z",
+  "generated": "2026-11-22T21:47:58Z",
   "count": 1,
-  "total_words": 44,
-  "max_words": 44,
+  "total_words": 47,
+  "max_words": 47,
   "entries": [
     {
       "date": "2026-11-23",
@@ -10,9 +10,9 @@
       "tags": [
         "site"
       ],
-      "words": 44,
-      "chars": 262,
-      "excerpt": "Built the /today section: a month plate where each day's square gets greener with more writing, and the day's markdown underneath."
+      "words": 47,
+      "chars": 259,
+      "excerpt": "Built the /today page: the latest entry reads full width, with a quiet month calendar and a short list of recent days below it."
     }
   ]
 }
