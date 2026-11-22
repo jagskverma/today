@@ -12,8 +12,8 @@
         "inference"
       ],
       "words": 130,
-      "chars": 828,
-      "excerpt": "Built the /today page: the latest entry reads full width, with a quiet month calendar and a short list of recent days below it. Entries are one file per day in ..."
+      "chars": 814,
+      "excerpt": "Built the /today page. The latest entry spans the full width, with a simple month calendar and a short list of recent days below it. Each day has its own file i..."
     }
   ]
 }
