@@ -1,7 +1,7 @@
 {
-  "count": 1,
-  "total_words": 130,
-  "max_words": 130,
+  "count": 2,
+  "total_words": 382,
+  "max_words": 252,
   "entries": [
     {
       "date": "2026-11-23",
@@ -14,6 +14,18 @@
       "words": 130,
       "chars": 814,
       "excerpt": "Built the /today page. The latest entry spans the full width, with a simple month calendar and a short list of recent days below it. Each day has its own file i..."
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Why the schedulers would not load",
+      "tags": [
+        "ebpf",
+        "sched_ext",
+        "kernel"
+      ],
+      "words": 252,
+      "chars": 1481,
+      "excerpt": "Built a schedext sandbox for the pathway report: a Lima VM on the M5 with a kernel that has CONFIGSCHEDCLASSEXT=y, the scx tree at fe0407c, and a smoke script t..."
     }
   ]
 }
